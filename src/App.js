@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import LinkBar from './components/LinkBar';
 
 function App() {
   return (
     <div className="App">
+      <LinkBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

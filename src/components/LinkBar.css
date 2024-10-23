@@ -1,0 +1,21 @@
+.link-bar {
+    display: flex;
+    justify-content: right;
+    background-color: lightblue;
+}
+
+.link-bar a {
+    font: Arial;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+.link-bar a:hover {
+
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
