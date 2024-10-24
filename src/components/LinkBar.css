@@ -29,3 +29,8 @@
     transform: scale(0.93);
     transform-origin: center;
 }
+.fa {
+    color: brown;
+    font-size: 24px;
+    margin: 10px;
+}

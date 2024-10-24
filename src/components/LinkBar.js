@@ -5,6 +5,8 @@ import resume from '../documents/resume.pdf'
 import githubIcon from '../images/github-icon.png'
 import linkedinIcon from '../images/linkedin-icon.png'
 import emailIcon from '../images/email-icon.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 // const GithubIcon = () => (
 //     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="40" height="40">
@@ -16,6 +18,7 @@ import emailIcon from '../images/email-icon.png'
 const LinkBar = () => {
     return (
         <div className="link-bar">
+            <FontAwesomeIcon icon={faGithub} style={{ color: 'brown', fontSize: '24px' }} />
             <a href={resume} target="_blank">
                 <img src={resumeIcon} alt="Resume" className="icon scaled-icon"/>
             </a>
