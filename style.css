@@ -11,7 +11,7 @@
     --bg-color: #080808;
     --second-bg-color: #101010;
     --text-color: white;
-    --main-color: #bf40bf;
+    --main-color: #8E2DE2;
 }
 
 html {
@@ -114,24 +114,24 @@ span {
 @keyframes words {
     0%,
     20% {
-        content: "Web Developer";
+        content: "Software Engineer.";
         
     }
     21%,
     40% {
-        content: "Problem Solver";
+        content: "Problem Solver.";
     }
     41%,
     60% {
-        content: "Creative Thinker";
+        content: "Creative Thinker.";
     }
     61%,
     80% {
-        content: "Team Player";
+        content: "Team Player.";
     }
     81%,
     100% {
-        content: "Web Developer";
+        content: "Web Developer.";
     }
 }
 @keyframes typing {
