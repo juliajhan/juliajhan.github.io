@@ -420,7 +420,7 @@ section {
 }
 .project-card img {
     max-width: 300px;
-    max-height: 300px;
+    max-height: 225px;
     border-radius: 2em;
     object-fit: cover;
 
@@ -440,6 +440,16 @@ section {
     color: white;
 
 }
+.contact .email-link {
+    text-align: center;
+}
+
+.contact a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
 .contact form {
     display: flex;
     align-items: center;
