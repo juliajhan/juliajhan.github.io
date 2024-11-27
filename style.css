@@ -309,7 +309,8 @@ section {
 
 .about-content p {
     font-size: 1.8rem;
-
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
 .about-content .btn {
     margin: 3rem 0;
@@ -394,7 +395,6 @@ section {
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
-
 }
 
 .project-card {
@@ -420,6 +420,7 @@ section {
 }
 .project-card img {
     max-width: 300px;
+    max-height: 300px;
     border-radius: 2em;
     object-fit: cover;
 
